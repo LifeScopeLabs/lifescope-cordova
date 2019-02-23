@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
     }
   },
   "dependent_plugins": {}
