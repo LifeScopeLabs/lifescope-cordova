@@ -12,7 +12,14 @@
     },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+    },
+    "cordova-plugin-advanced-http": {
+      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+    }
+  }
 }

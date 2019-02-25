@@ -6,17 +6,7 @@ let app = {
 
     bindEvents: function() {
 	    document.addEventListener('deviceready', this.onDeviceReady, false);
-	    document.addEventListener('pause', this.onPause, false);
-	    document.addEventListener('resume', this.onResume, false);
     },
-
-	onPause: function() {
-        console.log('PAUSE FIRED');
-	},
-
-	onResume: function() {
-    	console.log('RESUME FIRED');
-	},
 
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
