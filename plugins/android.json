@@ -8,18 +8,18 @@
   },
   "installed_plugins": {
     "cordova-plugin-advanced-http": {
-      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+      "PACKAGE_NAME": "com.lifescope.lifescope"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+      "PACKAGE_NAME": "com.lifescope.lifescope"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+      "PACKAGE_NAME": "com.lifescope.lifescope"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.lifescopelabs.lifescope"
+      "PACKAGE_NAME": "com.lifescope.lifescope"
     }
   }
 }

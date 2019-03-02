@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.lifescopelabs.lifescope" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget KeepRunning="false" android-minSdkVersion="15" id="com.lifescope.lifescope" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>LifeScope</name>
     <description>
-        Search the internet of you.
+        Search and explore the internet of you.
     </description>
     <author email="liam@BitScoop.com" href="http://LifeScope.io">
         LifeScope Labs
@@ -21,16 +21,41 @@
     <allow-navigation href="https://api.lifescope.io/*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon height="36" src="www/icons/android-chrome-36x36.png" width="36" />
+        <icon height="48" src="www/icons/android-chrome-48x48.png" width="48" />
+        <icon height="72" src="www/icons/android-chrome-72x72.png" width="72" />
+        <icon height="96" src="www/icons/android-chrome-96x96.png" width="96" />
+        <icon height="144" src="www/icons/android-chrome-144x144.png" width="144" />
+        <icon height="192" src="www/icons/android-chrome-192x192.png" width="192" />
+        <icon height="256" src="www/icons/android-chrome-256x256.png" width="256" />
+        <icon height="384" src="www/icons/android-chrome-384x384.png" width="384" />
+        <icon height="512" src="www/icons/android-chrome-512x512.png" width="512" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <icon height="57" src="www/icons/apple-touch-icon-57x57.png" width="57" />
+        <icon height="60" src="www/icons/apple-touch-icon-60x60.png" width="60" />
+        <icon height="72" src="www/icons/apple-touch-icon-72x72.png" width="72" />
+        <icon height="76" src="www/icons/apple-touch-icon-76x76.png" width="76" />
+        <icon height="114" src="www/icons/apple-touch-icon-114x114.png" width="114" />
+        <icon height="120" src="www/icons/apple-touch-icon-120x120.png" width="120" />
+        <icon height="144" src="www/icons/apple-touch-icon-144x144.png" width="144" />
+        <icon height="152" src="www/icons/apple-touch-icon-152x152.png" width="152" />
+        <icon height="180" src="www/icons/apple-touch-icon-180x180.png" width="180" />
+    </platform>
+    <platform name="windows">
+        <icon src="www/icons/mstile-310x310.png" target="StoreLogo" />
+        <icon src="www/icons/mstile-70x70.png" target="Square70x70Logo" />
+        <icon src="www/icons/mstile-150x150.png" target="Square150x150Logo" />
+        <icon src="www/icons/mstile-310x310.png" target="Square310x310Logo" />
+        <icon src="www/icons/mstile-310x150.png" target="Wide310x150Logo" />
     </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
-    <engine name="browser" spec="^5.0.4" />
     <plugin name="cordova-plugin-advanced-http" spec="^2.0.5" />
-    <engine name="android" spec="~7.1.4" />
-    <engine name="ios" spec="~4.5.5" />
-    <engine name="osx" spec="~4.0.2" />
-    <engine name="windows" spec="~6.0.1" />
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="windows" spec="^6.0.1" />
+    <engine name="ios" spec="^4.5.5" />
+    <engine name="osx" spec="^4.0.2" />
+    <engine name="android" spec="^7.1.4" />
 </widget>

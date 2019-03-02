@@ -1,7 +1,7 @@
 {
     "name": "com.lifescopelabs.lifescope",
     "displayName": "LifeScope",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Search and Explore the internet of you.",
     "main": "index.js",
     "scripts": {
@@ -29,11 +29,11 @@
             "cordova-plugin-advanced-http": {}
         },
         "platforms": [
-            "android",
             "browser",
+            "windows",
             "ios",
             "osx",
-            "windows"
+            "android"
         ]
     }
 }
