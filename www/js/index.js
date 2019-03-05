@@ -15,7 +15,7 @@ let app = {
 
         // Here, we redirect to the web site.
         let targetUrl = "https://app.lifescope.io?client=app";
-	    cordova.InAppBrowser.open(targetUrl, '_self', 'location=no');
+	    cordova.InAppBrowser.open(targetUrl, '_self', 'location=no,clearcache=no,clearsessioncache=no');
     },
 
     // Note: This code is taken from the Cordova CLI template.
