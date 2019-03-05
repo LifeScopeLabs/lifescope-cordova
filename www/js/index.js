@@ -20,14 +20,6 @@ let app = {
 
     // Note: This code is taken from the Cordova CLI template.
     receivedEvent: function(id) {
-        let parentElement = document.getElementById(id);
-        let listeningElement = parentElement.querySelector('.listening');
-        let receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-	    console.log('Received Event: ' + id);
     }
 };
 

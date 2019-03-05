@@ -22,3 +22,10 @@ Next, run
 ```cordova build```
 
 to build the app for the instantiated platforms. 
+
+## Building Android for release
+```cordova platform remove android```
+
+```cordova platform add android```
+
+```cordova build android --release --buildConfig```
