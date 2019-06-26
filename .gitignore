@@ -7,6 +7,7 @@ yarn-error.log*
 
 # Platforms
 platforms/
+plugins/
 
 # Build and Gradle
 *.gradle
@@ -67,3 +68,9 @@ typings/
 
 # next.js build output
 .next
+
+# Stupid Mac files
+*.DS_Store
+
+# Ignore VS code workspaces
+*.code-workspace
