@@ -39,6 +39,9 @@
         <icon height="144" src="www/icons/apple-touch-icon-144x144.png" width="144" />
         <icon height="152" src="www/icons/apple-touch-icon-152x152.png" width="152" />
         <icon height="180" src="www/icons/apple-touch-icon-180x180.png" width="180" />
+        <config-file parent="UILaunchStoryboardName" platform="ios" target="*-Info.plist">
+            <string>CDVLaunchScreen</string>
+        </config-file>
     </platform>
     <platform name="windows">
         <icon src="www/icons/mstile-310x310.png" target="StoreLogo" />
