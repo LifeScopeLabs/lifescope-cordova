@@ -12,7 +12,7 @@
     "dependencies": {
         "cordova": "^8.1.2",
         "cordova-android": "^7.1.4",
-        "cordova-browser": "^5.0.4",
+        "cordova-browser": "^6.0.0",
         "cordova-ios": "^4.5.5",
         "cordova-osx": "^4.0.2",
         "cordova-plugin-advanced-http": "^2.0.5",
